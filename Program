@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    int y;
+
+    cout<<"Valoarea lui x??"<<endl;
+    cin>>x;
+    cout<<"Valoarea lui y??"<<endl;
+    cin>>y;
+
+    cout<<"Mai trebuie adunat lui x"<<endl;
+    cout<<y * 3 - x<<endl;
+
+    return 0;
+}
